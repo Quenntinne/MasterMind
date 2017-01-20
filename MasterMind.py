@@ -10,7 +10,7 @@ for i in range(n):
     while rand_numb in code[:i]:
         rand_numb = random.randint(1, 9)
     code[i] = rand_numb
-print("[DEBUG]",code)
+#print("[DEBUG]",code)
 
 good=0
 while k>0 and good!=n :
