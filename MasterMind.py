@@ -19,6 +19,8 @@ while k>0 and good!=n :
     print("Entrez votre proposition : ")
     liste=[]
     proposition=input()
+    while len(proposition)!=n :
+        proposition=input()
     for i in proposition :
         liste.append(int(i))
     for a in range(len(liste)):
