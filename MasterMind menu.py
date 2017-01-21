@@ -32,7 +32,6 @@ while choix!=3 :
                 while rand_numb in code[:i]:
                     rand_numb = random.randint(1, 9)
                 code[i] = rand_numb
-            print("[DEBUG]",code)
 
             good=0
             almostgood=0
